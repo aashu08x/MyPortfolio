@@ -44,3 +44,8 @@ ul {
   list-style-type: disc;
   padding-left: 20px;
 }
+#about img {
+  width: 200px;
+  height: auto;
+  border-radius: 10px;
+}
