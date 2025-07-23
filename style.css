@@ -45,10 +45,10 @@ ul {
   padding-left: 20px;
 }
 #about img {
-  width: 300px;          /* You can increase this up to 400 or 500 if needed */
+  max-width: 90%;
+  width: 300px;
   height: auto;
   border-radius: 10px;
   display: block;
-  margin: 20px auto;     /* This centers the image */
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Optional nice shadow */
+  margin: 20px auto;
 }
