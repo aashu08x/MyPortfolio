@@ -54,8 +54,8 @@ ul {
 }
 .hamburger {
   position: fixed;
-  top: 24px; 
-  left: 24px;      
+  top: 30px; 
+  left: 30px;      
   font-size: 28px;
   background-color: #007bff; /* Optional: Black background */
   color: white;
