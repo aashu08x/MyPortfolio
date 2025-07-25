@@ -97,3 +97,19 @@ ul {
 .dropdown-menu a:hover {
   background-color: #444;
 }
+.dropdown-menu {
+  display: none;
+  flex-direction: column;
+  background-color: #333;
+  position: absolute;
+  top: 50px;
+  left: 10px;
+  width: 180px;
+  z-index: 1000;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.dropdown-menu.show-menu {
+  display: flex;
+}
