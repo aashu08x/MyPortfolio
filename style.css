@@ -62,7 +62,7 @@ ul {
   padding: 8px 12px;
   border-radius: 5px;
   cursor: pointer;
-  z-index: 101;
+  z-index: 1001;
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
