@@ -53,7 +53,7 @@ ul {
   margin: 20px auto;
 }
 .hamburger {
-  position: fixed;
+  position: absolute;
   top: 50px; 
   left: 40px;      
   font-size: 28px;
@@ -66,30 +66,29 @@ ul {
   box-shadow: 0 2px 5px rgba(0,0,0,0.2);
 }
 
-.dropdown-menu {
-  position: fixed;
-  top: 120px;
-  left: 10px;
-  background-color: #333;
-  display: none;
-  flex-direction: column;
-  border-radius: 6px;
+
+.sidebar {
+  height: 100vh;
+  width: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #0333; /* Same as navbar blue */
+  overflow-x: hidden;
+  transition: 0.4s ease;
+  padding-top: 110px;
   z-index: 1000;
-  min-width: 140px;
-  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
 }
 
-.dropdown-menu a {
+.sidebar a {
+  padding: 12px 24px;
+  text-decoration: underline;
+  font-size: 18px;
   color: white;
-  padding: 10px;
-  text-decoration: none;
-  border-bottom: 1px solid #444;
+  display: block;
+  transition: 0.3s;
 }
 
-.dropdown-menu a:last-child {
-  border-bottom: none;
-}
-
-.dropdown-menu.show-menu {
-  display: flex;
+.sidebar a:hover {
+  background-color: #0056b3;
 }
