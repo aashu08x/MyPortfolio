@@ -242,6 +242,7 @@ body {
 .section {
     padding: 5rem 0;
     position: relative;
+    text-align; Left;
     background: linear-gradient(rgba(10, 25, 47, 0.9), rgba(10, 25, 47, 0.95));
     border: 1px solid rgba(100, 255, 218, 0.1);
     border-radius: 10px;
@@ -915,3 +916,4 @@ body {
         animation: fadeInUp 0.4s ease forwards;
     }
 }
+
